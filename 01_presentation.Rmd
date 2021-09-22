@@ -1,0 +1,99 @@
+---
+title: "zweitstimme.org"
+subtitle: "Test of a long subtitle"
+author: 
+  - "Marcel Neunhoeffer (LMU Munich)"
+  - "Klara Müller (University of Mannheim)"
+date: '`r format(Sys.Date(), format = "%d %B %Y")`'
+output:
+  xaringan::moon_reader:
+    css: xaringan-themer_new.css
+    nature:
+      slideNumberFormat: "%current%"
+      highlightStyle: github
+      highlightLines: true
+      ratio: 16:9
+      countIncrementalSlides: true
+      navigation:
+        scroll: false
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(
+  fig.width=9, fig.height=3.5, fig.retina=3,
+  out.width = "100%",
+  cache = FALSE,
+  echo = TRUE,
+  message = FALSE, 
+  warning = FALSE,
+  hiline = TRUE
+)
+library(xaringanthemer)
+
+# library(showtext)
+# ## Loading Google fonts (https://fonts.google.com/)
+# font_add_google("Lato", "lato")
+# font_add_google("Lora", "lora")
+# 
+# ## Automatically use showtext to render text
+# showtext_auto()
+
+```
+
+
+<style type="text/css">
+.remark-slide-content {
+    font-size: 30px;
+}
+
+.table {
+  font-size: 8px;
+}
+
+
+</style>
+
+## We started zweitstimme.org in 2016 to communicate uncertainty associated with election polling.
+
+---
+## Our forecast for Sunday shows that the race is still open.
+
+<p align="center"><iframe frameBorder=0 sandbox='allow-scripts allow-same-origin allow-presentation' allowfullscreen='true'  height='460' src='https://datawrapper.dwcdn.net/55hfT/1391/'  width='100%'></iframe></p>
+
+---
+## The map of district winners will be more colorful than ever before.
+
+---
+## We are very certain that the next Bundestag will be the biggest Bundestag ever.
+
+<p align="center"><iframe frameBorder=0 sandbox='allow-scripts allow-same-origin allow-presentation' allowfullscreen='true'  height='460' src='https://datawrapper.dwcdn.net/SK6kX/19/'  width='100%'></iframe></p>
+
+---
+## We expect that several coalitions will have seat majorities in the next Bundestag
+
+<p align="center"><iframe frameBorder=0 sandbox='allow-scripts allow-same-origin allow-presentation' allowfullscreen='true'  height='460' src='https://datawrapper.dwcdn.net/qIOJA/1402/'  width='100%'></iframe></p>
+
+---
+
+## We can assign probabilities of getting elected for all 6,211 candidates.
+
+---
+## zweitstimme.org is a team effort.
+
+---
+## Backup
+
+
+
+---
+class: center, middle
+
+# Thanks!
+
+Slides created via the R packages:
+
+[**xaringan**](https://github.com/yihui/xaringan)<br>
+[gadenbuie/xaringanthemer](https://github.com/gadenbuie/xaringanthemer)
+
+The chakra comes from [remark.js](https://remarkjs.com), [**knitr**](http://yihui.name/knitr), and [R Markdown](https://rmarkdown.rstudio.com).
