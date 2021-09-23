@@ -1,9 +1,8 @@
 ---
 title: "zweitstimme.org"
-subtitle: "Test of a long subtitle"
 author: 
-  - "Marcel Neunhoeffer (LMU Munich)"
   - "Klara Müller (University of Mannheim)"
+  - "Marcel Neunhoeffer (LMU Munich)"
 date: '`r format(Sys.Date(), format = "%d %B %Y")`'
 output:
   xaringan::moon_reader:
@@ -56,13 +55,34 @@ library(xaringanthemer)
 
 ## We started zweitstimme.org in 2016 to communicate uncertainty associated with election polling.
 
+<p align="center">
+<img src = "img/bbc_2016.png" height = 460px />
+</p>
 ---
+
+## We started zweitstimme.org in 2016 to communicate uncertainty associated with election polling.
+
+<p align="center">
+<img src = "img/zweitstimme_2017.png" height = 460px />
+</p>
+---
+
+## We started zweitstimme.org in 2016 to communicate uncertainty associated with election polling.
+
+<p align="center">
+<img src = "img/sz.png" height = 460px />
+</p>
+---
+
 ## Our forecast for Sunday shows that the race is still open.
 
 <p align="center"><iframe frameBorder=0 sandbox='allow-scripts allow-same-origin allow-presentation' allowfullscreen='true'  height='460' src='https://datawrapper.dwcdn.net/55hfT/1391/'  width='100%'></iframe></p>
 
 ---
-## The map of district winners will be more colorful than ever before.
+## The map of district winners is likely to be the most colorful since 1953.
+
+<p align="center"><iframe frameBorder=0 sandbox='allow-scripts allow-same-origin allow-presentation' allowfullscreen='true'  height='460' src='https://api.zweitstimme.org/map'  width='100%'></iframe></p>
+
 
 ---
 ## We are very certain that the next Bundestag will be the biggest Bundestag ever.
@@ -70,7 +90,7 @@ library(xaringanthemer)
 <p align="center"><iframe frameBorder=0 sandbox='allow-scripts allow-same-origin allow-presentation' allowfullscreen='true'  height='460' src='https://datawrapper.dwcdn.net/SK6kX/19/'  width='100%'></iframe></p>
 
 ---
-## We expect that several coalitions will have seat majorities in the next Bundestag
+## We expect that several coalitions will have seat majorities in the next Bundestag.
 
 <p align="center"><iframe frameBorder=0 sandbox='allow-scripts allow-same-origin allow-presentation' allowfullscreen='true'  height='460' src='https://datawrapper.dwcdn.net/qIOJA/1402/'  width='100%'></iframe></p>
 
