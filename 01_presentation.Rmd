@@ -111,17 +111,61 @@ library(xaringanthemer)
 
 
 ---
+
+class: my-one-page-font
+
 ## zweitstimme.org is a team effort.
 
+<style>
+table.fixed {
+      table-layout: fixed;
+      width: 100%;
+      border: none;
+      font-size: 70%;
+    }
+table.fixed td {
+      overflow: hidden;
+    }
+    
+</style>
+
+
+
+
+<table class="fixed">
+	<col width=33% />
+     <col width=33% />
+     <col width=33% />
+  <tr>
+    <td> <p align="center"><img src="img/gschwend.jpg"  alt="Thomas Gschwend" height = 150px ><br> Thomas Gschwend <br>University of Mannheim</p> </td>
+    <td> <p align="center"><img src="img/mueller.jpg"  alt="Klara Müller" height = 150px ><br> Klara Müller <br>University of Mannheim</p> </td>
+    <td> <p align="center"><img src="img/munzert.jpg"  alt="Simon Munzert" height = 150px ><br> Simon Munzert <br>Hertie School</p> </td>
+   </tr> 
+</table>
+
+<table class="fixed">
+	<col width=50% />
+     <col width=50% />
+  <tr>
+    <td> <p align="center"><img src="img/neunhoeffer.jpg"  alt="Marcel Neunhoeffer" height = 150px ><br> Marcel Neunhoeffer <br>LMU Munich</p> </td>
+    <td> <p align="center"><img src="./img/stoetzer.jpg"  alt="Lukas F. Stoetzer" height = 150px ><br> Lukas F. Stoetzer <br>HU Berlin</p> </td>
+
+   </tr> 
+</table>
+
 ---
-## Backup
 
-
-
----
 class: center, middle
 
-# Thanks!
+## You can find our forecast and more details about our models on our homepage.
+
+<a href="https://zweitstimme.org">zweitstimme.org</a>
+``
+
+---
+
+class: center, middle
+
 
 Slides created via the R packages:
 

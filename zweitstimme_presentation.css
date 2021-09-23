@@ -211,6 +211,10 @@ table.dataTable.hover tbody tr:hover, table.dataTable.display tbody tr:hover {
   color: var(--text-color) !important;
 }
 
+.my-one-page-font {
+  font-size: 120px;
+}
+
 /* Slide Header Background for h1 elements */
 .remark-slide-content.header_background > h1 {
   display: block;
