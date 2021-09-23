@@ -6,7 +6,7 @@ author:
 date: '`r format(Sys.Date(), format = "%d %B %Y")`'
 output:
   xaringan::moon_reader:
-    css: xaringan-themer_new.css
+    css: zweitstimme_presentation.css
     nature:
       slideNumberFormat: "%current%"
       highlightStyle: github
