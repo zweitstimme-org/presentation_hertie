@@ -74,6 +74,14 @@ library(xaringanthemer)
 </p>
 ---
 
+## Three things we can say for the election on Sunday.
+
++ ### The race is still open.
++ ### The political district map is likely to be very colorful.
++ ### The Bundestag will likely be the biggest ever.
+
+---
+
 ## Our forecast for Sunday shows that the race is still open.
 
 <p align="center"><iframe frameBorder=0 sandbox='allow-scripts allow-same-origin allow-presentation' allowfullscreen='true'  height='460' src='https://datawrapper.dwcdn.net/55hfT/1391/'  width='100%'></iframe></p>
