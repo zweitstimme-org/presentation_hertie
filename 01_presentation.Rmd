@@ -40,6 +40,35 @@ library(xaringanthemer)
 
 ```
 
+```{r metathis, echo=FALSE}
+library(metathis)
+meta() %>%
+  meta_name("github-repo" = "zweitstimme-org/zweitstimme_hertie") %>% 
+  meta_social(
+    title = "zweitstimme.org",
+    description = paste(
+      "Zweitstimme.org the scientific forecast for the german general election 2021.",
+      "Presented at Hertie School 23 September 2021."
+    ),
+    url = "zweitstimme.org",
+    image = "https://build-your-own-universe.netlify.app/social-card.png",
+    image_alt = paste(
+      "Title slide of zweitstimme.org presentation:", 
+      "Zweitstimme.org the scientific forecast for the german general election 2021.", 
+      "presented at Hertie School 23 September 2021 by Klara Müller (University of Mannheim) and Marcel Neunhoeffer (LMU Munich)"
+    ),
+    og_type = "website",
+    og_author = "Marcel Neunhoeffer",
+    twitter_card_type = "summary_large_image",
+    twitter_creator = "@zweitstimme_org",
+    twitter_site = "@zweitstimme_org"
+  )
+```
+
+```{r xaringanExtra-share-again, echo=FALSE}
+xaringanExtra::use_share_again()
+```
+
 
 <style type="text/css">
 .remark-slide-content {
