@@ -51,6 +51,12 @@ meta() %>%
       "Presented at Hertie School 23 September 2021."
     ),
     url = "zweitstimme.org",
+    image = "https://zweitstimme.org/img/thumbnail.png",
+    image_alt = paste(
+      "Title slide of zweitstimme.org presentation:", 
+      "Zweitstimme.org the scientific forecast for the german general election 2021.", 
+      "presented at Hertie School 23 September 2021 by Klara Müller (University of Mannheim) and Marcel Neunhoeffer (LMU Munich)"
+    ),
     og_type = "website",
     og_author = "Marcel Neunhoeffer",
     twitter_card_type = "summary_large_image",
